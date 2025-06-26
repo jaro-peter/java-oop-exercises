@@ -4,28 +4,43 @@ package hu.jaro.peter.bank.system;
  * 2. Működésbeli különbségek
  * A különböző számlatípusok eltérően valósítják meg az alábbi műveleteket:
  * •	Transfer (utalás):
- * o	NormalAccount esetén az utalt összegből 2% jutalékot vonjon le a küldő számláról,
- *  és a maradék érkezzen meg a fogadó számlára.
+ * o
  * o	TravelAccount esetén az utalás fix 5 egység díjjal történik, amit a küldő számláról von le.
  * •	Bankkártyás fizetés (payWithCard):
- * o	NormalAccount esetén a fizetésnél 0% kezelési költség adódik az összeghez.
+ * o
  * o	TravelAccount esetén a bankkártyás fizetés devizakonverzióval együtt 3% extra költséget jelent.
  *
  */
 public class TravelAccount extends BankAccount{
 
 
-    public TravelAccount() {
+    public TravelAccount(double balance) {
+        super(balance);
     }
 
     @Override
-    void transferTo(BankAccount other, double amount) {
+    public void transferTo(BankAccount other, double amount) {
+        if (balance>= amount+5){
+            balance = balance- (amount+5);
+            other.balance= other.balance+ amount;
+        }
+        else System.out.println("nincs elég pénz");
 
     }
 
     @Override
-    void payWithCard(double amount) {
+    public void payWithCard(double amount) {
+           if (balance>= amount*1.03){
+               balance= balance- (amount*1.03);
+           }
+           else System.out.println("nincs elég pénz");
+    }
 
+    @Override
+    public String toString() {
+        return "TravelAccount{" +
+                "balance=" + balance +
+                '}';
     }
 }
 

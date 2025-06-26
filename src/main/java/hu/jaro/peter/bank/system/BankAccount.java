@@ -9,8 +9,23 @@ package hu.jaro.peter.bank.system;
  */
 public abstract class BankAccount {
 
-    private float balance;
-   abstract void transferTo(BankAccount other, double amount);
+    public double balance;
 
-    abstract void payWithCard(double amount);
+    public BankAccount(double balance) {
+
+        this.balance = balance;
+    }
+
+    public abstract void transferTo(BankAccount other, double amount);
+
+    public abstract void payWithCard(double amount);
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
 }
