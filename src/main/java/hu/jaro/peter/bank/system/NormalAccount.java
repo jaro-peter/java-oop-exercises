@@ -13,8 +13,10 @@ package hu.jaro.peter.bank.system;
  */
 public class NormalAccount extends BankAccount{
 
+    public NormalAccount(){
+        super();
+    }
     public NormalAccount(double balance){
-
         super(balance);
     }
 
@@ -40,8 +42,7 @@ public class NormalAccount extends BankAccount{
 
     @Override
     public String toString() {
-        return "NormalAccount{" +
-                "balance=" + balance +
-                '}';
+        return "NormalAccount:" +
+                "balance=" + balance ;
     }
 }

@@ -11,8 +11,10 @@ public class Main {
         System.out.println(acc1);
         System.out.println(acc2);
 
-        acc1.toString();
-        acc2.toString();
+
+        String a =acc1.toString();
+        System.out.println(a);
+        System.out.println(acc2.toString());
     }
 }
 

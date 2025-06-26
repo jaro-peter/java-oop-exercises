@@ -11,6 +11,7 @@ public abstract class BankAccount {
 
     public double balance;
 
+    public BankAccount(){}
     public BankAccount(double balance) {
 
         this.balance = balance;
