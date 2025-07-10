@@ -12,18 +12,48 @@ import java.util.Objects;
  */
 public class Gepjarmu {
 
+
     private String rendszam;
 
-    private Cartype tipus;
+    private CarType tipus;
     private int beparkolOra;
     private int beparkolPerc;
 
-    enum Cartype {BENZIN, GAZOLJA, HIBRID, ELEKTROMOS}
-
-    ;
 
 
-    public Gepjarmu(String rendszam, Cartype tipus, int beparkolOra, int beparkolPerc) {
+    public String getRendszam() {
+        return rendszam;
+    }
+
+    public void setRendszam(String rendszam) {
+        this.rendszam = rendszam;
+    }
+
+    public CarType getTipus() {
+        return tipus;
+    }
+
+    public void setTipus(CarType tipus) {
+        this.tipus = tipus;
+    }
+
+    public int getBeparkolOra() {
+        return beparkolOra;
+    }
+
+    public void setBeparkolOra(int beparkolOra) {
+        this.beparkolOra = beparkolOra;
+    }
+
+    public int getBeparkolPerc() {
+        return beparkolPerc;
+    }
+
+    public void setBeparkolPerc(int beparkolPerc) {
+        this.beparkolPerc = beparkolPerc;
+    }
+
+    public Gepjarmu(String rendszam, CarType tipus, int beparkolOra, int beparkolPerc) {
         this.rendszam = rendszam;
         this.tipus = tipus;
         this.beparkolOra = beparkolOra;
@@ -39,20 +69,14 @@ public class Gepjarmu {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     @Override
     public int hashCode() {
         return rendszam.hashCode();
+    }
+
+    @Override
+    public String toString(){
+        return this.rendszam;
     }
 
 }

@@ -13,6 +13,6 @@ package hu.jaro.peter.parking;
 **/
 public interface SzemelyGepjarmuInterface  {
 
-    public int kategoria();
+     int kategoria();
 
 }
