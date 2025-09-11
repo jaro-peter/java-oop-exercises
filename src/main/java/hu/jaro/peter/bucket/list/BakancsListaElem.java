@@ -45,8 +45,8 @@ public class BakancsListaElem {
         String kiir = " ";
         kiir = kiir + this.nev + " ";
         if (this.ev > 0) {
-            kiir += "igen " + this.ev + " " + this.koltseg;
-        } else kiir += "nem ";
+            kiir += "igen " + this.ev + " " + this.koltseg+ " \n";
+        } else kiir += "nem \n";
 
 
         return kiir;
