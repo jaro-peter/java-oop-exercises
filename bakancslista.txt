@@ -1,0 +1,34 @@
+Bádogdob,KÖNYV,Günter Grass,0,2022
+Piazza dei Miracoli,HELY,Pisa,Olaszország,80000,1989
+Dune,KÖNYV,Herbert Frank,0,0
+Frankenstein,KÖNYV,Mary Shelley,0,1994
+Louvre,HELY,Paris,Franciaország,120000,2013
+Anyukám Mondta,ÉTTEREM,3860 Encs Petőfi út 57.,46/587-340,40000,0
+Ermitázs,HELY,Szentpétervár,Oroszország,280000,0
+1984,KÖNYV,George Orwell,0,0
+A gyűrűk ura,KÖNYV,J. R. R. Tolkien,0,1995
+Bistro42,ÉTTEREM,2500 Esztergom Kossuth Lajos u. 3,70/678-7701,35000,1989
+Stand Étterem,ÉTTEREM,061 Budapest Székely Mihály utca 2.,30/785-9139,60000,0
+Manhattan,HELY,New York,USA,1000000,0
+Büszkeség és balitélet,KÖNYV,Jane Austen,0,0
+Laurel Budapest,ÉTTEREM,1076 Budapest Dohány utca 58-62.,70/578-6579,70000,0
+Don Quijote,KÖNYV,Miguel de Cervantes,0,0
+Robinson Crusoe,KÖNYV,Daniel Defoe,0,2003
+Kreml,HELY,Moszkva,Oroszország,300000,0
+Amalfi-part,HELY,Sorrento,Olaszország,100000,0
+Essencia Restaurant,ÉTTEREM,1051 Budapest Sas utca 17.,70/600-0315,40000,0
+Visegrádi vár,HELY,Visegrád,Magyarország,18000,1992
+David Copperfield,KÖNYV,Charles Dickens,0,0
+Colosseum,HELY,Róma,Olaszország,90000,0
+Világok harca,KÖNYV,H. G. Wells,0,0
+Arany Kaviár,ÉTTEREM,1015 Budapest Ostrom utca 19.,1/201-6737,90000,2019
+Ulysses,KÖNYV,James Joyce,0,0
+Gellért-hegy,HELY,Budapest,Magyarország,20000,2022
+British Museum,HELY,London,UK,120000,2010
+Nyomorultak,KÖNYV,Victor Hugo,0,1995
+A sátán kutyája,KÖNYV,Arthur Conan Doyle,0,2020
+Textúra,ÉTTEREM,1051 Budapest Sas utca 6.,1/617-9495,65000,0
+Érik a gyümölcs,KÖNYV,John Steinbeck,0,0
+Zsiványok,KÖNYV,William Faulkner,0,2021
+Brandenburgi kapu,HELY,Berlin,Németország,100000,1989
+Platán Gourmet,ÉTTEREM,2890 Tata Kastély tér 6.,30/444-9055,130000,0
